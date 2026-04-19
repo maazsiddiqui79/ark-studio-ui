@@ -1,0 +1,144 @@
+/* Remove default browser margin */
+html,
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+/* Hero section (full screen background area) */
+.hero {
+    background-image: url("ASSETS/billboard.jpg");
+    /* Background image */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation link styling */
+.nav-links {
+    color: black;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-weight: bolder;
+}
+
+/* Navigation group container */
+.nav-link-group {
+    padding-right: 20px;
+}
+
+/* Header positioned over hero section */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(161, 161, 161, 0.811);
+}
+
+/* Button inside hero footer */
+.btn {
+    color: white;
+    text-decoration: none;
+    background-color: dodgerblue;
+    padding: 5px;
+}
+
+/* Footer section positioned at bottom of hero */
+.footer {
+    position: absolute;
+    margin: 10px;
+    padding: 15px;
+
+    bottom: 0;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(161, 161, 161, 0.811);
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++ */
+/* Items */
+.main-stuff{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.stuff {
+    background-color: rgba(219, 219, 219, 0.42);
+    color: rgb(73, 73, 73);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-self: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+    align-items: center;
+
+}
+
+.item {
+    /* width: 100%; */
+    margin: 0px 5px;
+    align-items: center;
+    text-align: center;
+}
+.arrows-img{
+    width: 650px;
+
+}
+
+
+.footer-text-btn{
+    background-color: rgba(219, 219, 219, 0.42);
+    padding: 20px;
+    display: flex;
+   justify-content: center;
+    margin: 0px 10px;
+    padding: 15px;
+    bottom: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-footer{
+    color: white;
+    display: flex;
+    justify-content:  center;
+    align-items:  center;
+    flex-direction: column;
+    background-color: rgb(56, 56, 56);
+}
+.imp-links{
+
+    display: flex;
+    padding: 25px 0px;
+}
+.col{
+    padding:0px 15px ;
+    
+}
